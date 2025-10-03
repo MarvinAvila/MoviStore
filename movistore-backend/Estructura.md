@@ -3,6 +3,8 @@ movistore-backend/
 │   └── db.js           # Conexión a la base de datos
 ├── controllers/        # Lógica de negocio para cada ruta
 │   ├── productsController.js
+|   ├── OrderController.js
+|   ├──StoresControlles.js
 │   ├── categoriesController.js
 │   ├── usersController.js
 │   └── authController.js
@@ -25,6 +27,8 @@ movistore-backend/
 │   ├── products.js
 │   ├── categories.js
 │   ├── users.js
+|   ├── orders.js
+|   ├── stores.js
 │   └── auth.js
 ├── .env                # Variables de entorno
 ├── server.js           # Archivo principal de la aplicación
